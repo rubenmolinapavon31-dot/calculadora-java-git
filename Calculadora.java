@@ -1,4 +1,4 @@
-//Rubén Molina Pavón 1ºDAW1
+//Rubén Molina Pavón 1ºDAW1 
 import java.util.Scanner;
 
 public class Calculadora {
@@ -11,7 +11,7 @@ public class Calculadora {
             double num1, num2, resultado;
             int operacion;
             
-            System.out.println("=== CALCULADORA BÁSICA EN JAVA ===");
+            System.out.println("=== CALCULADORA BÁSICA EN JAVA. ===");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
