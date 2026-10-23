@@ -1,3 +1,4 @@
+
 // Versión 1.0 - Práctica de Entornos de Desarrollo
 import java.util.Scanner;
 
@@ -15,16 +16,16 @@ public class Calculadora {
             System.out.println("4. División");
             System.out.print("Elige una operación (1-4): ");
             operacion = scanner.nextInt();
-            
-			System.out.print("Ingresa el primer número: ");
+
+            System.out.print("Ingresa el primer número: ");
             num1 = scanner.nextDouble();
-			
-			System.out.print("Ingresa el segundo número: ");
+
+            System.out.print("Ingresa el segundo número: ");
             num2 = scanner.nextDouble();
 
             switch (operacion) {
                 case 1 -> {
-                    resultado = num1 + num2;
+                    resultado = num1 + num2; // Cambios irrelevantes
                     System.out.println("Resultado: " + num1 + " + " + num2 + " = " + resultado);
                 }
                 case 2 -> {
@@ -45,6 +46,11 @@ public class Calculadora {
                 }
                 default -> System.out.println("Opción no válida.");
             }
-        } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta "scanner.close()"
+        } // Aquí finaliza el bloque 'try' y el scanner se cierra solo, ya no hace falta
+          // "scanner.close()"
+    }
+
+    public int multiplicar(int a, int b) {
+        return (a * b);
     }
 }
