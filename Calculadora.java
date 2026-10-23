@@ -9,7 +9,7 @@ public class Calculadora {
             double num1, num2, resultado;
             int operacion;
             System.out.println("=== CALCULADORA BÁSICA EN JAVA ===");
-            System.out.println("1. Suma");
+            System.out.println("1. Suma ");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
             System.out.println("4. División");
